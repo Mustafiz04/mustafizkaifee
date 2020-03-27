@@ -1,0 +1,68 @@
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-columns: minmax(20%, 1fr);
+    grid-gap: 25px;
+    margin: 40px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #2f3542;
+    padding: 0 20px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.card-icon{
+    font-size: 38px;
+    background-color: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+
+.card p{
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card:hover p{
+    opacity: 1;
+    max-height: 40px;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+}
+
+.card a:hover{
+    color: rgb(130, 187, 207);
+}
+
+.card:hover{
+    transition: all .5s ease-out 0s;
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+}

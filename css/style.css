@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(41, 38, 62);
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-out 0s;
+}
+nav{
+    /* background-color: red; */
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 120px;
+    font-weight: bold;
+    
+}
+
+#moon{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 1s ease-out 0s;
+}
+#moon:hover{
+    width:  70px;
+    height: 70px;
+    transform: rotate(-25deg);
+    transition: all 1s ease-out 0s;
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: all .5s ease-out 0s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 60px;
+    cursor: pointer;
+    display: none;
+}
+.checkbtn:hover{
+    color: #0e76a8;
+}
+#check{
+    display: none;
+}
+
+
+
+
+.layout{
+    margin: 0 120px;
+    transition: all 1s ease-out 0s;
+}
+.page-content{
+    max-width: 40%;
+    font-size: 2rem;
+}
+.page-content-2{
+    text-align: center;
+    max-width: 100%;
+    font-size: 2rem;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(130, 187, 207);
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.about{
+    font-size: 1.5rem;
+}
+
+.social-media{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    
+    -webkit-box-pack: justify;
+    flex-wrap: wrap;
+}
+.social-icon{
+    font-size: 1.4rem;
+    color: rgb(130, 187, 207);
+    text-decoration: none;
+    padding-right: 1.3rem;
+    transition: all 0.3s ease-out 0s;
+}
+.fa-github:hover{
+    color: #6e5494;
+}
+.fa-linkedin:hover{
+    color: #0e76a8;
+}
+.fa-instagram:hover{
+    color: #E1306C;
+}
+.fa-envelope:hover{
+    color: #d44638;
+}
+.fa-twitter:hover{
+    color: #00acee;
+}
