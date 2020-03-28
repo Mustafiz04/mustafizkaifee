@@ -21,6 +21,9 @@
     .layout .contact-info{
         grid-template-columns: repeat(2, 300px);
     }
+    .layout .content{
+        grid-template-columns: repeat(2,350px);
+    }
 }
 
 @media (max-width : 952px){
@@ -55,6 +58,7 @@
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 999;
     }
     nav ul li{
         display: block;
@@ -75,15 +79,18 @@
         width: 100%;
         
     }
+    .layout .content{
+        grid-template-columns: repeat(1,350px);
+    }
 }
 
 
 /* Contact */
 
 @media (max-width : 1100px){
-    .contact-info{
-        /* flex-direction: column; */
-    }
+    /* .contact-info{
+
+    } */
     .contact-info .card{
         width: 100%;
         max-width: 300px;
