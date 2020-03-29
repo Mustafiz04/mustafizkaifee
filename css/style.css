@@ -94,8 +94,14 @@ nav ul li a:hover{
     max-width: 100%;
     font-size: 2rem;
 }
-.heading{
+.heading-f{
     font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(130, 187, 207);
+}
+.heading{
+    font-size: 4.5rem;
     font-weight: 600;
     letter-spacing: 1px;
     color: rgb(130, 187, 207);

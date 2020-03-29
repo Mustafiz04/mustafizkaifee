@@ -1,3 +1,11 @@
+#profile{
+    margin-top: 45px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+
 .content{
     /* background-color: red; */
     display: grid;
@@ -33,6 +41,18 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 1;
+}
+.sk:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.2);
+    border-bottom-left-radius: 150px;
+  border-top-left-radius: 150px;
 }
 
 
