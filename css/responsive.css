@@ -44,6 +44,9 @@
     .layout .contact-info{
         grid-template-columns: repeat(1, 300px);
     }
+    footer{
+        padding: 0 30px ;
+    }
 }
 @media (max-width : 858px){
     .checkbtn{
@@ -81,6 +84,9 @@
     }
     .layout .content{
         grid-template-columns: repeat(1,350px);
+    }
+    .copyright p{
+        font-size: 15px;
     }
 }
 
